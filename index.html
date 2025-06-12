@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="main-cont">
+        <section class="sidebar">
+            <div>
+                <i class="fa-solid fa-bars"></i>
+                <h2>Dashboard</h2>
+            </div>
+            <ul class="first-menu">
+                <li><i class="fa-solid fa-house"></i> Home</li>
+                <li><i class="fa-solid fa-id-card"></i> Profile</li>
+                <li><i class="fa-solid fa-message"></i> Messages</li>
+                <li><i class="fa-solid fa-clock-rotate-left"></i> History</li>
+                <li><i class="fa-solid fa-file-pen"></i> Tasks</li>
+                <li><i class="fa-solid fa-users"></i> Communities</li>
+            </ul>
+            <ul class="last-menu">
+
+                <li><i class="fa-solid fa-gear"></i> Settings</li>
+                <li><i class="fa-solid fa-circle-question"></i> Support</li>
+                <li><i class="fa-solid fa-shield-halved"></i> Privacy</li>
+            </ul>
+        </section>
+
+        <section class="header">
+            <div class="search-cont">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search">
+            </div>
+            <div class="msg-cont">
+                <i class="fa-solid fa-bell"></i>
+                <img src="./assets/profile.jpg" alt="profile" width="40px" height="40px">
+                <h3>Data Queen</h3>
+            </div>
+            <div class="profile-cont">
+                <img src="./assets/profile.jpg" alt="profile" width="60px" height="60px">
+                <div>
+                    <p>Hi there,</p>
+                    <h2>Data Queen (@dataqueen)</h2>
+                </div>
+            </div>
+            <div class="nav-cont">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </section>
+
+        <section class="content">
+            <div class="projects-cont">
+                <h2>Your Projects</h2>
+                <div class="cards-cont">
+                    <div class="card">
+                        <h3>Project Alpha</h3>
+                        <p><b>Status:</b> In Progress</p>
+                        <p>Internal CRM system revamp for sales department. Current focus is on UI/UX enhancements.</p>
+                        <div class="card-footer">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Project Beta</h3>
+                        <p><b>Status:</b> Completed</p>
+                        <p>Deployment of automated reporting tools. Fully integrated with analytics API.</p>
+                        <div class="card-footer">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Project Gamma</h3>
+                        <p><b>Status:</b> Pending</p>
+                        <p>AI chatbot for customer support. Awaiting budget approval and team assignment.</p>
+                        <div class="card-footer">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Project Delta</h3>
+                        <p><b>Status:</b> In Development</p>
+                        <p>Cross-platform mobile app for internal task management. Backend API integration in progress.</p>
+                        <div class="card-footer">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Project Epsilon</h3>
+                        <p><b>Status:</b> On Hold</p>
+                        <p>Migration of legacy data to cloud storage. Paused pending vendor evaluation. Awaiting final shortlist before resuming implementation planning.</p>
+                        <div class="card-footer">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Project Zeta</h3>
+                        <p><b>Status:</b> Planning</p>
+                        <p>Development of employee performance analytics dashboard. Initial requirements being gathered.</p>
+                        <div class="card-footer">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-eye"></i>
+                            <i class="fa-solid fa-code-fork"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="anon-cont">
+                <h2>Announcements</h2>
+                <div class="anon-card">
+                    <div>
+                        <h3>📢 &nbsp; Scheduled Maintenance</h3>
+                        <p>Servers will be temporarily offline for a routine security patch.</p>
+                    </div>
+                    <div>
+                        <h3>🆕 &nbsp; New Feature Rollout</h3>
+                        <p>Dark mode is now available in your dashboard settings!</p>
+                    </div>
+                    <div>
+                        <h3>📌 &nbsp; Policy Update</h3>
+                        <p>Please review the updated Data Access Policy in your email.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="trnd-cont">
+                <h2>Trending</h2>
+                <div class="trnd-card">
+                    <div>
+                        <img src="./assets/profile.jpg" alt="profile" width="42px" height="42px">
+                        <div>
+                            <p><b>@designguru</b></p>
+                            <p>Minimal UI Tips</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./assets/profile.jpg" alt="profile" width="42px" height="42px">
+                        <div>
+                            <p><b>@dataqueen</b></p>
+                            <p>Weekly Sales Boost</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./assets/profile.jpg" alt="profile" width="42px" height="42px">
+                        <div>
+                            <p><b>@remoteworklife</b></p>
+                            <p>Async Meetings FTW</p>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="./assets/profile.jpg" alt="profile" width="42px" height="42px">
+                        <div>
+                            <p><b>@dev_james</b></p>
+                            <p>Microservices Checklists</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
