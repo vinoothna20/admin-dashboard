@@ -16,8 +16,8 @@ This is a simple, responsive Admin Dashboard built with HTML, CSS, and CSS Grid.
 **Trending Section:** Lists trending topics and users.
 
 ### Technologies Used
-HTML: Used for creating the structure and content.
+**HTML:** Used for creating the structure and content.
 
-CSS: Used for styling and layout. The dashboard is designed using CSS Grid to create a responsive, two-column layout.
+**CSS:** Used for styling and layout. The dashboard is designed using CSS Grid to create a responsive, two-column layout.
 
-Font Awesome: For adding scalable vector icons (e.g., icons for buttons and sidebar).
+**Font Awesome:** For adding scalable vector icons (e.g., icons for buttons and sidebar).
